@@ -30,4 +30,4 @@ def canUnlockAll(boxes):
             if key not in opened and key < len(boxes):
                 opened.add(key)
                 line.append(boxes[key])
-        return len(opened) == len(boxes)
+    return len(opened) == len(boxes)
