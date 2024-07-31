@@ -3,7 +3,6 @@
 Module for lockboxes
 """
 
-
 def canUnlockAll(boxes):
     """Function that determines if all the boxes are opened.
 
